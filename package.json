@@ -1,0 +1,11 @@
+{
+  "name": "sockchat",
+  "version": "0.0.0",
+  "description": "a basic chap app built on socket.io and angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Peter de Croos",
+  "license": "ISC"
+}
