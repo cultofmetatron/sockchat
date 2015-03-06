@@ -7,5 +7,8 @@
     "test": "mocha test"
   },
   "author": "Peter de Croos",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  }
 }
