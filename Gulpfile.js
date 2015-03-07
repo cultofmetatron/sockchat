@@ -4,7 +4,7 @@ var gutil = require('gulp-util');
 var WebpackDevServer = require('webpack-dev-server');
 var webpack = require('gulp-webpack');
 
-gulp.task("webpack", function(cb) {
+gulp.task('webpack', function(cb) {
   return gulp.src('./frontend/src/js/index.js')
     .pipe(webpack({
       output: {
@@ -15,6 +15,11 @@ gulp.task("webpack", function(cb) {
 });
 
 
+
+gulp.task('default', function() {
+
+
+});
 
 
 
