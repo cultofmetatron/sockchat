@@ -28,7 +28,8 @@ gulp.task('less', function() {
 
 
 gulp.task('default', function() {
-
+  gulp.watch('./frontend/src/**/*.js', ['webpack']);
+  gulp.watch('./frontend/src/**/*.less', ['less']);
 
 });
 
